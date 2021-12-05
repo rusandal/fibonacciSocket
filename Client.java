@@ -16,8 +16,7 @@ public class Client {
 
             System.out.println(in.readLine());
             String number = reader.readLine();
-            out.write(number+"\n");
-            out.flush();
+            out.println(number+"\n");
             String serverWord = in.readLine();
             System.out.println(serverWord);
         } catch (IOException e){
